@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link href="https://fonts.googleapis.com/css?family=Amiri|Lato&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Coding Test</title>
+</head>
+
+<!-- Tasks 
+
+
+
+        TODO:
+        1. Using the content provided create an astetically pleasing design the meets Accessibility standards. You can use any colors you wish using any type of CSS Layout (Grid/Flex/Float).
+        2. Page should work on both a mobile device (Chrome Devtools iPhone X [375 x 812]) and Desktop (1920x1080). Use a Mobile First Design Scheme for your CSS. (Javascript for hamburger menu has been provided).
+        3. The News Section should have three callouts. Images, text and title are provided.
+        4. Spotlight Should be a student spotlight. Student Image and Text are provided.
+        5. Gallery should be clean and organized and does not need to use a lightbox (Pop-up image on click).
+        6. Contact should be in the footer and should be a basic (non-functioning) form with a First Name, Last Name, Email, and Message field. Must meet Accessibility Standards.
+        7. Create a working Hamburger menu (can be for both desktop and mobile).
+  
+        Restrictions:
+        1. No Javascript Frameworks (jQuery or Vue).
+        2. No CSS Frameworks (Bootstrap, Bulma, Foundation).
+  
+        End Tasks -->
+
+<body>
+  <!-- Header Section -->
+  <header>
+    <nav>
+      <!-- Logo Section -->
+      <img src="https://www.dickinson.edu/site/styles/css_img/logo.png" alt="Dickinson" class="logo" />
+      <!-- Nav Menu -->
+      <ul class="nav-links">
+        <li><a href="#News">News</a></li>
+        <li><a href="#Spotlight">Spotlight</a></li>
+        <li><a href="#Gallery">Gallery</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+      <!-- Hamburger Menu -->
+      <i class="fas fa-bars"></i>
+    </nav>
+  </header>
+  <!-- Main Content Section -->
+  <main>
+    <!-- News Section -->
+    <section class="news">
+      <!-- News Article -->
+      <article class="news-highlight">
+        <img src="https://www.dickinson.edu/images/Stanley_Paige_Zeigler_71_lt.jpg" alt="" class="news-image" />
+        <h1 class="news-title">Title 1</h1>
+        <p class="news-content">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Praesentium id voluptatem consequatur error vel exercitationem
+          quaerat rem dolore deleniti fuga.
+        </p>
+      </article>
+      <!-- News Article -->
+      <article class="news-highlight">
+        <img src="https://www.dickinson.edu/images/rev_challenge_lt.jpg" alt="" class="news-image" />
+        <h1 class="news-title">Title 2</h1>
+        <p class="news-content">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Praesentium id voluptatem consequatur error vel exercitationem
+          quaerat rem dolore deleniti fuga.
+        </p>
+      </article>
+      <!-- News Article -->
+      <article class="news-highlight">
+        <img src="https://www.dickinson.edu/images/Revero_lt.jpg" alt="" class="news-image" />
+        <h1 class="news-title">Title 3</h1>
+        <p class="news-content">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Praesentium id voluptatem consequatur error vel exercitationem
+          quaerat rem dolore deleniti fuga.
+        </p>
+      </article>
+    </section>
+    <hr />
+    <!-- Spotlight Section -->
+    <section class="news-spotlight">
+      <article class="spotlight">
+        <h1 class="spotlight-title">Spotlight Title</h1>
+        <small class="by-line">Tony Moore</small>
+        <b class="date-published">January 1st, 2020.</b>
+        <p class="spotlight-content">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore
+          reiciendis nemo voluptates eveniet doloribus quibusdam sed pariatur
+          nulla tempore. Obcaecati consequuntur, sed assumenda officia atque
+          laboriosam nobis molestiae nulla deserunt veritatis, itaque quo. Ut
+          omnis ullam laborum totam repellat libero optio, similique fugiat?
+          Voluptatibus suscipit quo nostrum fugiat? Quibusdam exercitationem
+          dolore magni veniam odio architecto perferendis sequi odit
+          accusamus, nisi cupiditate? Cupiditate facilis quam modi ipsa
+          blanditiis, quos dolorem minima nesciunt! Est perspiciatis illum
+          amet.
+        </p>
+        <a href="#" class="read-more">Read More</a>
+      </article>
+    </section>
+    <hr />
+    <!-- Gallery -->
+    <section class="gallery">
+      <img src="http://www.dickinson.edu/images/Sunset_Sign.jpg" alt="" />
+      <img src="https://www.dickinson.edu/images/OldWest.jpg" alt="" />
+      <img src="https://www.dickinson.edu/images/Library_1.jpg" alt="" />
+      <img src="https://www.dickinson.edu/images/Weiss_Statue.jpg" alt="" />
+      <img src="https://www.dickinson.edu/images/Rector_Science.jpg" alt="" />
+      <img src="https://www.dickinson.edu/images/Blizzard.jpg" alt="" />
+      <img src="https://www.dickinson.edu/images/OldWestWinter.jpg" alt="" />
+      <img src="https://www.dickinson.edu/images/Campus_Spring.jpg" alt="" />
+      <img src="https://www.dickinson.edu/images/Mermaid_1.jpg" alt="" />
+      <img src="https://www.dickinson.edu/images/FallCampus_20151030_2894.jpg" alt="" />
+      <img src="https://www.dickinson.edu/images/Aerial.jpg" alt="" />
+      <img src="https://www.dickinson.edu/images/FoodStudiesDinner_20160825_8913.jpg" alt="" />
+    </section>
+  </main>
+  <!-- Footer Section -->
+  <footer>
+    <!-- Contact Information -->
+    <img src="https://www.dickinson.edu/site/styles/css_img/logo.png" alt="Dickinson" class="watermark" />
+    <p class="address">P.O. BOX 1773, CARLISLE, PA 17013</p>
+    <p class="phone">(800) 644-1773</p>
+    <p class="email">Webmaster@dickinson.edu</p>
+    <!-- Contact Form (Non-functional) -->
+    <form></form>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

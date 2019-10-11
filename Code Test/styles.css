@@ -1,0 +1,26 @@
+/* Fonts:
+Paragraph: font-family: 'Lato', sans-serif;
+Header: font-family: 'Amiri', serif;
+*/
+
+/* Base Styles */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+h6,
+h5,
+h4,
+h3,
+h2,
+h1 {
+    font-family: 'Amiri', serif;
+}
+
+hr {
+    border-bottom: 3px solid black;
+    margin: 20px 0;
+}
